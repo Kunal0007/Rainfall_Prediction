@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, rgba(137, 247, 254, 0.6), rgba(102, 166, 255, 0.6));
+    border-radius: 2rem;
+}
+
+body {
+    margin: 3rem;
+    background-image: url("../Rain.jpg");
+    background-size: cover;
+}
+
+.form {   
+    margin: 3rem 7rem; 
+    padding: 3rem 3rem;
+    background: linear-gradient(to right, rgba(137, 247, 254, 0.6), rgba(102, 166, 255, 0.6));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+@media (max-width: 1024px){
+    .form {   
+        margin: 3rem 2rem;        
+    } 
+}
+
+@media (max-width: 640px){
+    .form {   
+        margin: 3rem 0;        
+    } 
+}
+
+.heading {
+    font-family: 'Satisfy', cursive;
+}
